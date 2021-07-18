@@ -34,7 +34,9 @@ const displayUsers = async function(usersResults) {
     
 }
 
+getData(1);
+
 selectUserNumber.addEventListener("change", function() {
-    let numUsers = selectUserNumber.value;
+    const numUsers = selectUserNumber.value;
     getData(numUsers);
 });
